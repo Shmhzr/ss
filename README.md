@@ -20,9 +20,10 @@ git commit -m "Initial commit"
 Create a new repository on GitHub
 git remote add origin <repo link>
 git push -u origin master/main
------------------------------------
 git clone <repo link>
 cd clned fldr
+
+
 
 
 #!/bin/bash
@@ -38,7 +39,11 @@ git clone <repository link>
 cd repository_name
 npm install 
 node index.js
--------------
+
+
+
+
+
 cd /
 cd etc
 cd nginx
