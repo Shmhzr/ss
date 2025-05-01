@@ -13,18 +13,22 @@ npm install
 node index.js
 cp ip, add :4000
 
-cd prjct_fldr
+cd /path/to/your/project
 git init
 git add .
 git commit -m "Initial commit"
 Create a new repository on GitHub
-git remote add origin <repo link>
-git push -u origin master/main
+git remote add origin https://USERNAME:TOKEN@github.com/USERNAME/REPO.git
+git push -u origin main
+git push -u origin master
+(git branch -M main
+git push -u origin main
+)
 git clone <repo link>
 cd clned fldr
 
 
-
+without port
 
 #!/bin/bash
 sudo apt-get update
